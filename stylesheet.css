@@ -206,7 +206,7 @@ hr {
 	margin-top: 26px;
 	text-align: left;
 	font-family: Charter, serif;
-	font-size: 2rem;
+	font-size: 1.813rem;
 	text-decoration: none;
 	color: inherit;
 }
@@ -229,7 +229,8 @@ hr {
 
 .articleBody {
 	margin-top: 20px;
-	line-height: 1.75em;
+	word-spacing: 0.05rem;
+	line-height: 1.438em;
 }
 
 .nnw-overflow {
@@ -565,6 +566,9 @@ a.footnote:hover,
 		margin-bottom: 20px;
 		padding-left: 20px;
 		padding-right: 20px;
+		font-size: 1.125rem;
+		word-spacing: 0.05rem;
+		line-height: 1.438rem;
 
 		word-break: break-word;
 		-webkit-text-size-adjust: none;
