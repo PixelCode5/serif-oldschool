@@ -1,12 +1,9 @@
 /* Font scale: 1.2 */
 
 :root {
-	--link-color: -apple-system-control-accent;
-	--link-color: -apple-system-alternate-selected-text;
-	--link-color: -apple-system-selected-text-background;
-	--link-color: -apple-system-selected-content-background;
-	--text-color: #222;
-	--text-color-rgb: 51, 51, 51;
+	--link-color: #d19600;
+	--text-color: #4f321c;
+	--text-color-rgb: 79, 50, 28;
 	--header-table-border-color: rgba(0, 0, 0, 0.1);
 	--header-color: rgba(0, 0, 0, 0.3);
 	--body-code-color: #666;
@@ -18,10 +15,10 @@
 
 @media(prefers-color-scheme: dark) {
 	:root {
-		--header-color: rgba(94, 158, 244, 1);
+		--header-color: rgba(209, 150, 0, 1);
 		--body-code-color: #b2b2b2;
 		--system-message-color: #5f5f5f;
-		--feedlink-color: rgba(94, 158, 244, 1);
+		--feedlink-color: rgba(209, 150, 0, 1);
 		--article-date-color: rgba(255, 255, 255, 0.5);
 		--table-cell-border-color: dimgray;
 	}
@@ -35,7 +32,7 @@ body {
 	color: var(--text-color);
 	margin-left: auto;
 	margin-right: auto;
-	font-family: ui-serif, serif;
+	font-family: Charter, serif;
 	word-wrap: break-word;
 	text-align: justify;
 	text-justify: inter-word;
@@ -72,7 +69,7 @@ code,
 pre {
 	color: var(--body-code-color);
 	font-family: "SF Mono", Menlo, "Courier New", Courier, monospace;
-	font-size: 0.95rem;
+	font-size: 1.188rem;
 	-webkit-hyphens: none;
 }
 
@@ -89,7 +86,7 @@ pre {
 
 pre code {
 	letter-spacing: -.027em;
-	font-size: 0.9375rem;
+	font-size: 1.063rem;
 }
 
 img,
@@ -208,8 +205,8 @@ hr {
 	transition: 0.1s;
 	margin-top: 26px;
 	text-align: left;
-	font-family: ui-serif, serif;
-	font-size: 1.953125rem;
+	font-family: Charter, serif;
+	font-size: 2rem;
 	text-decoration: none;
 	color: inherit;
 }
@@ -232,7 +229,7 @@ hr {
 
 .articleBody {
 	margin-top: 20px;
-	line-height: 1.6em;
+	line-height: 1.75em;
 }
 
 .nnw-overflow {
@@ -295,13 +292,13 @@ hr {
 
 @media (prefers-color-scheme: light) {
 	pre {
-		  background: color(srgb 0.947 0.947 0.947);
+		  background: color(srgb 0.968 0.945 0.890);
 	}
 	
 	p code {
-		  background: color(srgb 0.947 0.947 0.947);
+		  background: color(srgb 0.968 0.945 0.890);
 		  padding: 0.2em;
-		  font-size: 0.9em;
+		  font-size: 1.188em;
 	}
 }
 
@@ -313,7 +310,7 @@ hr {
 	p code {
 		background: rgba(49, 49, 49, 1);
 		padding: 0.2em;
-		font-size: 0.9em;
+		font-size: 1.063em;
 	}
 }
 
@@ -481,7 +478,7 @@ a.footnote {
 	border-radius: 1em;
 	min-width: 1em;
 	text-align: center;
-	font-size: 0.833rem;
+	font-size: 0.938rem;
 	line-height: 1.25;
 	position:relative;
 	top: -0.1em;
@@ -548,7 +545,7 @@ a.footnote:hover,
 @supports (-webkit-touch-callout: none) {
 	:root {
 		color-scheme: light dark;
-		font-family: ui-serif, -apple-system-body;
+		font-family: Charter, -apple-system-body;
 		font-size: [[font-size]]px;
 		--primary-accent-color: #000;
 		--block-quote-border-color: rgba(8, 106, 238, 0.75);
@@ -557,7 +554,7 @@ a.footnote:hover,
 	@media(prefers-color-scheme: dark) {
 		:root {
 			--primary-accent-color: #ffffff;
-			--block-quote-border-color: rgba(94, 158, 244, 0.75);
+			--block-quote-border-color: rgba(209, 150, 0, 0.75);
 			--header-table-border-color: rgba(255, 255, 255, 0.2);
 		}
 	}
@@ -613,7 +610,7 @@ a.footnote:hover,
 		margin-bottom: 64px;
 		padding-left: 48px;
 		padding-right: 48px;
-		font-family: ui-serif, serif;
+		font-family: Charter, serif;
 	}
 
 	.smallText {
