@@ -33,12 +33,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	font-family: Charter, serif;
-	word-wrap: break-word;
-	text-align: justify;
-	text-justify: inter-word;
 	max-width: 44em;
-	hyphens: auto;
-	-webkit-hyphens: auto;
 }
 
 a {
@@ -206,7 +201,7 @@ hr {
 	margin-top: 26px;
 	text-align: left;
 	font-family: Charter, serif;
-	font-size: 1.813rem;
+	font-size: 1.875rem;
 	text-decoration: none;
 	color: inherit;
 }
@@ -229,7 +224,6 @@ hr {
 
 .articleBody {
 	margin-top: 20px;
-	word-spacing: 0.05rem;
 	line-height: 1.438em;
 }
 
@@ -566,9 +560,8 @@ a.footnote:hover,
 		margin-bottom: 20px;
 		padding-left: 20px;
 		padding-right: 20px;
-		font-size: 1.125rem;
-		word-spacing: 0.05rem;
-		line-height: 1.438rem;
+		font-size: 1.156rem;
+		line-height: 1.469rem;
 
 		word-break: break-word;
 		-webkit-text-size-adjust: none;
