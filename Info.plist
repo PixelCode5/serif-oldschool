@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>Name</key>
-	<string>Serif Gazette</string>
+	<string>serifoldschool</string>
 	<key>ThemeIdentifier</key>
-	<string>com.jaysitter.themes.serifgazette</string>
+	<string>com.pixelcode5.themes.serif-oldschool</string>
 	<key>CreatorHomePage</key>
-	<string>https://www.jaysitter.com/</string>
+	<string>https://github.com/PixelCode5/</string>
 	<key>CreatorName</key>
-	<string>Jay Sitter</string>
+	<string>pixelcode5</string>
 	<key>Version</key>
 	<integer>1</integer>
 </dict>
